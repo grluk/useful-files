@@ -13,3 +13,6 @@ echo "export HISTTIMEFORMAT='%F %T '" >> ~/.bashrc
 #Add nifty nmap script searcher.
 echo "-- Adding Alias --"
 echo "alias nmapls='ls /usr/share/nmap/scripts | grep $1'" >> ~/.bashrc 
+echo "alias gh='history | grep $1' >> ~/.bashrc #This one from Rob Jervis!
+
+echo "Done, you may need to restart the console session"
