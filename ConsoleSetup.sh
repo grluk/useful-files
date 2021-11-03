@@ -1,7 +1,10 @@
 #!/bin/bash
 
+#Backups ;-)
+cp ~/.bashrc ~/.bashrc.bak
+
 # Add Home dir local bin folder. Anything with execute permissions in this folder will be available in PATH.
-echo "#Changes below here added manually" >> ~/.bashrc
+echo "# ~~~~ Changes below here added manually ~~~" >> ~/.bashrc
 echo "-- Adding local bin path.--"
 if [ -d "$HOME/bin" ]; then
   echo "Directory ~/bin already exists.. skipping."
