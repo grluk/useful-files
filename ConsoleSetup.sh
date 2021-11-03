@@ -3,7 +3,11 @@
 #Add Home dir local bin folder. Anything with execute permissions in this folder will be available in PATH.
 echo "-- Adding local bin path.--"
 echo "PATH=$PATH:~/bin" >> ~/.bashrc
-mkdir ~/bin
+if [ -d "~/bin" ]; then
+  echo "Directory ~/bin already exists.. skipping."
+else
+  mkdir ~/bin
+fi
 
 echo "-- Adding time stamps to history output --"
 #Add Timestamps for history file.
