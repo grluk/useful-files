@@ -1,6 +1,7 @@
 #!/bin/bash
 
 #Backups ;-)
+echo "Backing up .bashrc to .bashrc.bak"
 cp ~/.bashrc ~/.bashrc.bak
 
 # Add Home dir local bin folder. Anything with execute permissions in this folder will be available in PATH.
