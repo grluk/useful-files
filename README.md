@@ -8,3 +8,8 @@ Useful small bash script to add some basic useful changes to default Linux conso
 - Adds alias for history searching ($ gh <search_string> )
 - Adds timestamps to command history output 
 - something else I forgot....
+
+### essentials.sh
+Some additional packages useful for testing
+- sshfs - Shared mounted drives over ssh
+- sshuttle - ssh tunneling. 
