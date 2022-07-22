@@ -1,4 +1,4 @@
 #!/bin/bash
 
-apt install sshfs sshuttle flameshot
+sudo apt install sshfs sshuttle flameshot
 
