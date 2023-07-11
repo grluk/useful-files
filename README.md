@@ -12,4 +12,7 @@ Useful small bash script to add some basic useful changes to default Linux conso
 ### essentials.sh
 Some additional packages useful for testing
 - sshfs - Shared mounted drives over ssh
-- sshuttle - ssh tunneling. 
+- sshuttle - ssh tunneling.
+- flameshot - linux Screenshot tool
+- git fetched: enum4linux-ng, usrename stats
+- kerbrute
