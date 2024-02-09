@@ -14,5 +14,5 @@ Some additional packages useful for testing
 - sshfs - Shared mounted drives over ssh
 - sshuttle - ssh tunneling.
 - flameshot - linux Screenshot tool
-- git fetched: enum4linux-ng, usrename stats
+- git fetched: enum4linux-ng, username stats
 - kerbrute
